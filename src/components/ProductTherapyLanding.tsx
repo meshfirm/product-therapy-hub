@@ -159,7 +159,7 @@ const ProductTherapyLanding = () => {
         <div className="max-w-7xl mx-auto text-center">
           <h3 className="text-xl font-semibold mb-4">Proudly Sponsored by</h3>
           <p className="text-lg mb-2">
-            <strong>Mesh Group</strong>
+            <strong>Mesh firm</strong>
           </p>
           <p className="text-muted-foreground">
             A product consultancy based in Copenhagen, empowering businesses 
