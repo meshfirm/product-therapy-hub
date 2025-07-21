@@ -3,10 +3,20 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Users, Calendar, Youtube, Heart, ArrowRight, Building2 } from "lucide-react";
 import heroImage from "@/assets/hero-community.jpg";
 import meetupImage from "@/assets/meetup-networking.jpg";
+import logo from "@/assets/product-therapy-logo.png";
 
 const ProductTherapyLanding = () => {
   return (
     <div className="min-h-screen bg-gradient-hero">
+      {/* Header with Logo */}
+      <header className="absolute top-0 left-0 z-10 p-6">
+        <img 
+          src={logo} 
+          alt="Product Therapy" 
+          className="h-12 w-auto"
+        />
+      </header>
+
       {/* Hero Section */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
